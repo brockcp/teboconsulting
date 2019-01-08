@@ -1,0 +1,180 @@
+
+html, body{
+  height:100%;
+  font-family: Lato;
+/*  font-size: 100%;*/
+  font-size: 16px;
+ /* font-size: 1em;*/
+}
+.bg{
+  width:100%;
+  height:auto;
+  background: url('../img/bg.jpg');
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrap{
+  max-width:1400px;
+  margin:0 auto;
+padding:2% 0 5% 0;
+
+}
+.head{
+  width:96%;
+  height:10%;
+  margin:1% 2%;
+  border:1px solid #ffffff;
+  background: #777777;
+/*  opacity: .8;*/
+  color:#ffffff;
+}
+.title{
+  width:65%;
+  display: inline-block;
+  vertical-align:top;
+/*    border:1px solid #ffffff;*/
+  background: #777777;
+  
+}
+.title h1{
+  font-size:1.6em;
+  color:#ffffff;
+  margin:4% 0 0 7%;
+
+}
+.title h2{
+  font-size:1em;
+  color:#ffffff;
+  margin: 0 0 0 10% ;
+}
+.pic{
+  width:20%;
+  display:inline-block;
+  padding:1% 0 0 8%;
+  /*border:1px solid red;*/
+}
+.pic img{
+  width:92%;
+  height:auto;
+  border:1px solid #ffffff;
+  
+}
+
+.specialization {
+  width:96%;
+  margin:1% 2%;
+  padding:0;
+  border:1px solid #ffffff;
+  font-size:1.2em;
+  background: #777777;
+  /*opacity: .8;*/
+  color:#ffffff;
+}
+.description {
+  width:90%;
+  margin:1% 2%;
+  padding:0 3%;
+  border:1px solid #ffffff;
+  background: #777777;
+  /*opacity: .8;*/
+  color:#ffffff;
+}
+.description p{
+  font-size:1.2em;
+  text-align:center;
+}
+.foot{
+  width:90%;
+  margin:1% 2% 0 2%;
+  padding:3%;
+  border:1px solid #ffffff;
+  background: #777777;
+/*  opacity: .8;*/
+  color:#ffffff;
+}
+.foot h2, .foot a{
+  font-size:1.2em;
+  color:#ffffff;
+  margin:0;
+}
+.foot a{
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 600px) {
+body{
+  font-size:120%;
+}
+    .head{
+  border:none;
+  background:transparent;
+}
+.title{
+  width:50%;
+      border:1px solid #ffffff;
+      padding:0 0 2% 0;
+}
+.title h1{
+  font-size:2em;
+}
+.pic{
+  width:20%;
+  padding:1% 0 0 25%;
+}
+.specialization{
+  width:55%;
+  margin:1% 1%;
+  
+}
+.description{
+margin:1%; 
+}
+.foot{
+  width:47%;
+  margin:1% 1% 0 1%;
+}
+}
+@media only screen and (min-width: 768px) {
+
+
+}
+
+@media only screen and (min-width: 1024px) {
+.title{
+  width:30%;
+}
+  
+  .pic{
+  width:15%;
+  padding:1% 0 0 50%;
+
+}
+.pictest{
+  width:12%;
+}
+.specialization{
+  width:40%;
+  
+}
+.foot{
+  width:34%; 
+}
+}
+@media only screen and (min-width: 1280px) {
+.pic{
+  width:12%;
+}
+.specialization{
+  width:30%;
+  margin:1% 58% 1% 6%;
+}
+.description{
+  width:56%;
+  margin:1% 22%;
+}
+.foot{
+  width:24%;
+  margin:1% 7% 1% 57%;
+}
+}
