@@ -13,11 +13,12 @@
   "author": "brock patterson",
   "license": "ISC",
   "devDependencies": {
-    "bootstrap": "^4.2.1",
+    "bootstrap": "^4.3.1",
     "browser-sync": "^2.26.3",
     "concat": "^1.0.3",
     "copyfiles": "^2.1.0",
     "node-sass": "^4.11.0",
-    "useref-file": "^0.2.1"
+    "useref-file": "^0.2.1",
+    "uglify-js": ">=2.6.0"
   }
 }
