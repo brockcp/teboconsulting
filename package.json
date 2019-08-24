@@ -1,24 +1,31 @@
 {
   "name": "teboconsulting",
-  "version": "2.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "sass-css": "node-sass --output-style nested --indent-type tab --indent-width 1 -o src/css src/scss",
-    "prod-img": "copyfiles -u 2 src/img/* dist/img",
-    "prod-html-css": "useref src/index.html dist/index.html --css concat",
-    "src-s": "browser-sync start --server --files 'src/*' --startPath 'src'",
-    "dist-s": "browser-sync start --server --files 'dist/*' --startPath 'dist'"
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1"
   },
-  "author": "brock patterson",
-  "license": "ISC",
-  "devDependencies": {
-    "bootstrap": "^4.3.1",
-    "browser-sync": "^2.26.3",
-    "concat": "^1.0.3",
-    "copyfiles": "^2.1.0",
-    "node-sass": "^4.11.0",
-    "useref-file": "^0.2.1",
-    "uglify-js": ">=2.6.0"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
