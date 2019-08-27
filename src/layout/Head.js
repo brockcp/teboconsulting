@@ -4,21 +4,13 @@ import logo from './tebo-logo.png';
 
 function Head() {
   return (
-    <header className="ddd">
-     <img src={logo} className="fff" alt="logo" />
-      <h1 className="">SusanTebo</h1>
-      <h2 className="">Environmental Consulting</h2>
-      <div className="">
-        <ul className="">Specializing in:
-          <li className="">Environmental Impact Reports</li>
-          <li className="">Initial Studies</li>
-          <li className="">Negative Declarations</li>
-          <li className="">NEPA Documentation</li>
-          <li className="">Staff Reports</li>
-          <li className="">Strategic Environmental Planning</li>
-       </ul>
+    <header>
+     <img src={logo} className="logo" alt="logo" />
+      <div className="title">
+        <h1>SusanTebo</h1>
+        <h2>Environmental Consultant</h2>
       </div>
-    </header>
+   </header>
   );
 }
 

@@ -3,8 +3,16 @@ import React from 'react';
 function Body() {
   return (
   <>
+  <ul className="back2">Specializing in:
+    <li>Environmental Impact Reports</li>
+    <li>Initial Studies</li>
+    <li>Negative Declarations</li>
+    <li>NEPA Documentation</li>
+    <li>Staff Reports</li>
+    <li>Strategic Environmental Planning</li>
+ </ul>
     <div className="">
-      <p className="ddd eee">Susan has over 30 years of professional experience
+      <p className="specialties">Susan has over 30 years of professional experience
        in environmental review, resource management, and land use planning.
        She has prepared and managed environmental documents in compliance with
        the California Environmental Quality Act (CEQA). Susan's responsibilities

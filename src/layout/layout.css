@@ -1,4 +1,34 @@
-.ddd{color:green;}
-.ddd a{color:darkseagreen}
-.eee{margin:40px;}
-.fff{height:40vmin}
+/********HEAD********/
+header{
+  padding:3%;
+  background-color: #eeeeee;
+}
+.logo{
+  height: 30vmin;
+}
+.title{
+  display:inline-block;
+}
+.title h1, .title h2{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight:300;
+}
+.title h1{
+  font-size: 4vw;
+  color:#42bff5;
+}
+.title h2{
+  font-size: 2vh;
+  color: #333333;
+  padding-left:2%;
+}
+@media (min-width: 576px) {
+  .title{
+    padding-left: 10%;
+ }
+}
+
+/********BODY********/
