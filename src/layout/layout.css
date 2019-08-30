@@ -1,12 +1,15 @@
 /********HEAD********/
 header{
-  padding:3%;
-  background-color: #eeeeee;
+   padding:3%;
+  background-color: #ffffff;
 }
 .logo{
+  vertical-align: top !important;
   height: 30vmin;
 }
 .title{
+  float:right;
+  padding-right:5%;
   display:inline-block;
 }
 .title h1, .title h2{
@@ -17,13 +20,21 @@ header{
   font-weight:300;
 }
 .title h1{
-  font-size: 4vw;
-  color:#42bff5;
+  font-size:16px;
+  /* font-size: 4vw; */
+  font-weight:600;
+  color:#333333;
 }
 .title h2{
-  font-size: 2vh;
+  font-size: 16px;
+  font-weight: 400;
   color: #333333;
   padding-left:2%;
+}
+.pic{
+  border-radius:5%;
+  max-width: 100px;
+  height: auto;
 }
 @media (min-width: 576px) {
   .title{
@@ -32,3 +43,88 @@ header{
 }
 
 /********BODY********/
+.specializing{
+  background-color:#f0edc5;
+  padding:2%;
+}
+.specializing h3{
+  font-weight:400;
+  color: #444444;
+}
+ul.special1{
+  margin-bottom: 0;
+  list-style-type:none
+}
+.special1 li{
+  font-size: 1.2rem;
+  color: #555555;
+}
+.statement{
+  background-color:#dcf0c5;
+  padding:5%;
+}
+.statement p{
+  font-size: 1.2rem;
+  color: #555555;
+}
+.projects{
+  background-color:#dcf0e5;
+  padding:2%;
+}
+.projects h3{
+  color: #555555;
+  font-weight:400;
+}
+ul.projects1{
+  list-style-type: none;
+  margin-bottom:0;
+}
+.projects li{
+  font-size: 1.2rem;
+  color: #555555;
+}
+
+/********FOOT********/
+footer{
+  text-align:center;
+  background-color:#f0edc5;
+  padding:3%;
+}
+footer ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+footer ul li a{
+  color:#555555;
+}
+footer ul li a:hover{
+  text-decoration:none;
+  color:#eeeeee;
+}
+
+.btnn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  padding: 0.2rem 2rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+}
+
+.btnn:hover{
+  text-decoration: none;
+}
+.btn-main {
+  color: #fff;
+  background-color: #dcf0e5;
+  border-color: purple;
+}
+
+.btn-main:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
