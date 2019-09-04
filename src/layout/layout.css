@@ -1,75 +1,78 @@
 /********HEAD********/
-header{
-   padding:3%;
+
+.header{
   background-color: #ffffff;
+  padding-bottom:4%;
 }
 .logo{
-  vertical-align: top !important;
-  height: 30vmin;
+  /* vertical-align:top; */
+  margin: 0 0 5px 5px;
+  height: 34vmin;
 }
 .title{
-  float:right;
-  padding-right:5%;
+  margin: 5px 0 0 20px;
   display:inline-block;
-}
-.title h1, .title h2{
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight:300;
 }
 .title h1{
   font-size:16px;
-  /* font-size: 4vw; */
+  margin:0;
   font-weight:600;
   color:#333333;
 }
 .title h2{
   font-size: 16px;
+  margin:0;
   font-weight: 400;
   color: #333333;
-  padding-left:2%;
 }
 .pic{
   border-radius:5%;
   max-width: 100px;
   height: auto;
 }
-@media (min-width: 576px) {
-  .title{
-    padding-left: 10%;
- }
-}
 
 /********BODY********/
-.specializing{
-  background-color:#f0edc5;
-  padding:2%;
+
+.specialty{
+  background-image: url(./2.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 3%;
 }
-.specializing h3{
+.bg1{
+  margin:1%;
+  padding:4%;
+  width:80%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.specialty h3{
   font-weight:400;
-  color: #444444;
+  color: #ffffff;
 }
-ul.special1{
+ul.specialty-list1a, ul.specialty-list1b{
   margin-bottom: 0;
+  padding-left:1rem;
   list-style-type:none
 }
-.special1 li{
-  font-size: 1.2rem;
-  color: #555555;
+.specialty li{
+  font-size: 1.4rem;
+  color: #ffffff;
+  font-weight:700;
+  margin-left:0;
 }
 .statement{
-  background-color:#dcf0c5;
-  padding:5%;
+  background-color:#ffffff;
+  padding:4%;
 }
 .statement p{
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: #555555;
 }
 .projects{
   background-color:#dcf0e5;
-  padding:2%;
+  padding:4%;
 }
 .projects h3{
   color: #555555;
@@ -77,17 +80,20 @@ ul.special1{
 }
 ul.projects1{
   list-style-type: none;
+  padding-left:1rem;
   margin-bottom:0;
 }
 .projects li{
   font-size: 1.2rem;
   color: #555555;
+  font-weight:700;
+  margin-left:0;
 }
 
 /********FOOT********/
 footer{
   text-align:center;
-  background-color:#f0edc5;
+  background-color:#333333;
   padding:3%;
 }
 footer ul{
@@ -95,7 +101,9 @@ footer ul{
   padding-left: 0;
 }
 footer ul li a{
-  color:#555555;
+  color:#777777;
+  font-size:1.2rem;
+  font-weight:500;;
 }
 footer ul li a:hover{
   text-decoration:none;
@@ -103,13 +111,14 @@ footer ul li a:hover{
 }
 
 .btnn {
+  margin-top:10px;
   display: inline-block;
   font-weight: 400;
   text-align: center;
   vertical-align: middle;
   border: 1px solid transparent;
   padding: 0.2rem 2rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.5;
   border-radius: 0.25rem;
 }
@@ -118,13 +127,34 @@ footer ul li a:hover{
   text-decoration: none;
 }
 .btn-main {
-  color: #fff;
+  color: #222222;
   background-color: #dcf0e5;
-  border-color: purple;
+  border-color: #ffffff;
 }
 
 .btn-main:hover {
-  color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  color: #222222;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+/********MEDIA QUERIES********/
+@media (min-width: 768px) {
+  .title{
+    margin:20px 0 0 20%;
+  }
+}
+@media (min-width: 1024px) {
+  .title{
+    margin:30px 0 0 40%;
+  }
+}
+@media (min-width: 1366px) {
+  .header, .specialty, .statement, .projects{
+    padding-left:10%;
+    padding-right:10%;
+  }
+  .title{
+    margin:40px 0 0 30%;
+  }
 }
