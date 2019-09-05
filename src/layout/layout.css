@@ -88,7 +88,15 @@ ul.specialty-list{
 ul.projects1{
   margin-bottom:0;
   padding-left:0;
-  list-style-type:square;
+  list-style-type:none;
+}
+ul.projects1 li::before{
+  content: "\2022";
+  color: #ffea75;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 .projects li{
   margin-left:0;
@@ -110,12 +118,12 @@ footer ul{
 }
 footer ul li a{
   font-size:1rem;
-  color:#777777;
+  color:#999999;
   font-weight:500;;
 }
 footer ul li a:hover{
   text-decoration:none;
-  color:#eeeeee;
+  color:#888888;
 }
 
 .btn {
@@ -125,14 +133,14 @@ footer ul li a:hover{
   border-radius: 0.25rem;
 }
 .btn-main {
-  color: #222222;
-  background-color: #dcf0e5;
-  border-color: #7ab8ff;
+  color: #ffffff;
+  background-color: #7ab8ff;
+  border-color: #ffea75;
 }
 .btn-main:hover {
-  color: #222222;
-  background-color: #ffffff;
-  border-color: #ffffff;
+  color: #eeeeee;
+  background-color: #86bdfc;
+  border-color: #ffea75;
 }
 
 /********MEDIA QUERIES********/

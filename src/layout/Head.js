@@ -1,6 +1,6 @@
 import React from 'react';
 import './layout.css';
-import logo from './img-tebo-logo.png';
+import logo from './img-tebo-logo2.png';
 import photo from './img-susan-tebo.jpg';
 
 function Head() {
