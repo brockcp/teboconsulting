@@ -4,25 +4,18 @@ function Body() {
   return (
   <>
     <div className="container-fluid specialty">
-
-            <div className="row bg1">
+        <div className="row bg1">
             <h3 className="">Specializing in:</h3>
 
-            <div className="col-md-6">
-              <ul className="specialty-list1a">
+              <ul className="specialty-list">
                 <li>Environmental Impact Reports</li>
                 <li>Initial Studies</li>
                 <li>Negative Declarations</li>
-              </ul>
-            </div>
-
-            <div className="col-md-6">
-             <ul className="specialty-list1b">
                <li>NEPA Documentation</li>
                <li>Staff Reports</li>
                <li>Strategic Environmental Planning</li>
             </ul>
-          </div>
+
 
        </div>
     </div>
@@ -51,9 +44,8 @@ function Body() {
     </div>
 
     <div className="container-fluid projects">
-        <h3>Noted Projects:</h3>
-        <div className="row">
-
+        <div className="row bg2">
+           <h3>Noted Projects:</h3>
            <div className="col-md-6">
                <ul className="projects1">
                   <li>Landmark Village EIR, Newhall Ranch, LA County</li>

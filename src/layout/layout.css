@@ -1,41 +1,41 @@
 /********HEAD********/
 
 .header{
-  background-color: #ffffff;
+  background-color: #deecfc;
   padding-bottom:4%;
 }
 .logo{
-  /* vertical-align:top; */
-  margin: 0 0 5px 5px;
-  height: 34vmin;
+  vertical-align:top;
+  margin: 20px 0 5px 5px;
+  height: 32vmin;
 }
 .title{
-  margin: 5px 0 0 20px;
+  margin: 25px 0 0 10px;
   display:inline-block;
 }
 .title h1{
-  font-size:16px;
-  margin:0;
+  font-size:1rem;
+  margin: 3px 0 0 0;
   font-weight:600;
   color:#333333;
 }
 .title h2{
-  font-size: 16px;
+  font-size:.9rem;
   margin:0;
   font-weight: 400;
   color: #333333;
 }
-.pic{
+.photo{
   border-radius:5%;
-  max-width: 100px;
+  max-width:100px;
   height: auto;
 }
 
 /********BODY********/
 
 .specialty{
-  background-image: url(./2.jpg);
-  height: 500px;
+  background-image: url(./img-landscape-mobile.jpg);
+  height: 250px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -43,58 +43,68 @@
 }
 .bg1{
   margin:1%;
-  padding:4%;
-  width:80%;
+  padding:1%;
+  width:96%;
   background-color: rgba(0, 0, 0, 0.3);
 }
 .specialty h3{
-  font-weight:400;
+  padding-left:1%;
+  font-weight:200;
   color: #ffffff;
+  width:100%;
 }
-ul.specialty-list1a, ul.specialty-list1b{
-  margin-bottom: 0;
+ul.specialty-list{
   padding-left:1rem;
-  list-style-type:none
+  list-style-type:none;
 }
 .specialty li{
-  font-size: 1.4rem;
+  font-size: 1rem;
   color: #ffffff;
-  font-weight:700;
+  font-weight:400;
   margin-left:0;
+  padding-left:0;
 }
 .statement{
-  background-color:#ffffff;
+  background-color:#ffea75;
   padding:4%;
 }
 .statement p{
-  font-size: 1.3rem;
+  font-size: 1rem;
+  line-height:1.2;
   color: #555555;
 }
 .projects{
-  background-color:#dcf0e5;
+  background-color:#ffffff;
   padding:4%;
 }
+.bg2{
+  margin:1%;
+  padding:4%;
+  background-color: rgba(122, 184, 255, 0.2);
+}
 .projects h3{
-  color: #555555;
+  color: #333333;
   font-weight:400;
+  width:100%;
 }
 ul.projects1{
-  list-style-type: none;
-  padding-left:1rem;
+  list-style-type:square;
+  padding-left:0;
   margin-bottom:0;
 }
 .projects li{
-  font-size: 1.2rem;
-  color: #555555;
-  font-weight:700;
+  font-size: 1rem;
+  color: #333333;
+  font-weight:500;
   margin-left:0;
 }
 
 /********FOOT********/
 footer{
   text-align:center;
-  background-color:#333333;
+  background-color:#3f5975;
   padding:3%;
+  line-height: 1.3;
 }
 footer ul{
   list-style-type: none;
@@ -102,7 +112,7 @@ footer ul{
 }
 footer ul li a{
   color:#777777;
-  font-size:1.2rem;
+  font-size:1rem;
   font-weight:500;;
 }
 footer ul li a:hover{
@@ -129,7 +139,7 @@ footer ul li a:hover{
 .btn-main {
   color: #222222;
   background-color: #dcf0e5;
-  border-color: #ffffff;
+  border-color: #7ab8ff;
 }
 
 .btn-main:hover {
@@ -141,20 +151,30 @@ footer ul li a:hover{
 /********MEDIA QUERIES********/
 @media (min-width: 768px) {
   .title{
-    margin:20px 0 0 20%;
+    margin-left: 28%;
+  }
+  .specialty{
+    background-image: url(./img-landscape-mobile.jpg);
+    height: 400px;
+  }
+  .bg1{
+    width:45%;
   }
 }
 @media (min-width: 1024px) {
   .title{
-    margin:30px 0 0 40%;
+    margin-left: 45%;
+  }
+  .specialty{
+    background-image: url(./img-landscape-widescreen.jpg);
   }
 }
 @media (min-width: 1366px) {
-  .header, .specialty, .statement, .projects{
+  .header{
     padding-left:10%;
     padding-right:10%;
   }
-  .title{
-    margin:40px 0 0 30%;
+  .bg1{
+    margin-left:15%;
   }
 }
