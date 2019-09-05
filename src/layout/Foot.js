@@ -8,7 +8,7 @@ function Foot() {
           <li><a href="https://goo.gl/maps/Metdp9KwyUM2">300 E. Esplanade Dr.,#1660
           <br />
             Oxnard, CA 93036</a></li>
-          <li className=""><a href="mailto:susan@teboconsulting.com" className="btnn btn-main">email</a></li>
+          <li className=""><a href="mailto:susan@teboconsulting.com" className="btn btn-main">email</a></li>
         </ul>
       </footer>
   );

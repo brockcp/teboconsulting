@@ -1,8 +1,8 @@
 /********HEAD********/
 
 .header{
-  background-color: #deecfc;
   padding-bottom:4%;
+  background-color: #deecfc;
 }
 .logo{
   vertical-align:top;
@@ -10,63 +10,61 @@
   height: 32vmin;
 }
 .title{
-  margin: 25px 0 0 10px;
   display:inline-block;
+  margin: 25px 0 0 10px;
+  color:#3333333;
 }
 .title h1{
-  font-size:1rem;
   margin: 3px 0 0 0;
+  font-size:1rem;
   font-weight:600;
-  color:#333333;
 }
 .title h2{
-  font-size:.9rem;
   margin:0;
+  font-size:.9rem;
   font-weight: 400;
-  color: #333333;
 }
 .photo{
-  border-radius:5%;
   max-width:100px;
   height: auto;
+  border-radius:5%;
 }
 
 /********BODY********/
 
 .specialty{
-  background-image: url(./img-landscape-mobile.jpg);
   height: 250px;
+  padding: 3%;
+  background-image: url(./img-landscape-mobile.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 3%;
 }
 .bg1{
+  width:96%;
   margin:1%;
   padding:1%;
-  width:96%;
+  color: #ffffff;
   background-color: rgba(0, 0, 0, 0.3);
 }
 .specialty h3{
+  width:100%;
   padding-left:1%;
   font-weight:200;
-  color: #ffffff;
-  width:100%;
 }
 ul.specialty-list{
   padding-left:1rem;
   list-style-type:none;
 }
 .specialty li{
-  font-size: 1rem;
-  color: #ffffff;
-  font-weight:400;
   margin-left:0;
   padding-left:0;
+  font-size: 1rem;
+  font-weight:400;
 }
 .statement{
-  background-color:#ffea75;
   padding:4%;
+  background-color:#ffea75;
 }
 .statement p{
   font-size: 1rem;
@@ -74,8 +72,8 @@ ul.specialty-list{
   color: #555555;
 }
 .projects{
-  background-color:#ffffff;
   padding:4%;
+  background-color:#deecfc;
 }
 .bg2{
   margin:1%;
@@ -83,36 +81,36 @@ ul.specialty-list{
   background-color: rgba(122, 184, 255, 0.2);
 }
 .projects h3{
+  width:100%;
   color: #333333;
   font-weight:400;
-  width:100%;
 }
 ul.projects1{
-  list-style-type:square;
-  padding-left:0;
   margin-bottom:0;
+  padding-left:0;
+  list-style-type:square;
 }
 .projects li{
+  margin-left:0;
   font-size: 1rem;
   color: #333333;
   font-weight:500;
-  margin-left:0;
 }
 
 /********FOOT********/
 footer{
   text-align:center;
-  background-color:#3f5975;
   padding:3%;
+  background-color:#3f5975;
   line-height: 1.3;
 }
 footer ul{
-  list-style-type: none;
   padding-left: 0;
+  list-style-type: none;
 }
 footer ul li a{
-  color:#777777;
   font-size:1rem;
+  color:#777777;
   font-weight:500;;
 }
 footer ul li a:hover{
@@ -120,28 +118,17 @@ footer ul li a:hover{
   color:#eeeeee;
 }
 
-.btnn {
+.btn {
   margin-top:10px;
-  display: inline-block;
-  font-weight: 400;
-  text-align: center;
-  vertical-align: middle;
-  border: 1px solid transparent;
   padding: 0.2rem 2rem;
   font-size: 1.2rem;
-  line-height: 1.5;
   border-radius: 0.25rem;
-}
-
-.btnn:hover{
-  text-decoration: none;
 }
 .btn-main {
   color: #222222;
   background-color: #dcf0e5;
   border-color: #7ab8ff;
 }
-
 .btn-main:hover {
   color: #222222;
   background-color: #ffffff;
@@ -181,7 +168,6 @@ footer ul li a:hover{
     background-image: url(./img-landscape-widescreen.jpg);
   }
   .specialty li{
-
   }
 }
 @media (min-width: 1366px) {
