@@ -149,6 +149,14 @@ footer ul li a:hover{
 }
 
 /********MEDIA QUERIES********/
+@media (min-width: 500px) {
+  .specialty{
+    height:400px;
+  }
+  .bg1{
+    width:50%;
+  }
+}
 @media (min-width: 768px) {
   .title{
     margin-left: 28%;
@@ -160,6 +168,10 @@ footer ul li a:hover{
   .bg1{
     width:45%;
   }
+  .specialty li, .statement p, .projects li,
+  footer ul li a{
+    font-size: 1.2rem;
+  }
 }
 @media (min-width: 1024px) {
   .title{
@@ -168,13 +180,23 @@ footer ul li a:hover{
   .specialty{
     background-image: url(./img-landscape-widescreen.jpg);
   }
+  .specialty li{
+
+  }
 }
 @media (min-width: 1366px) {
-  .header{
-    padding-left:10%;
-    padding-right:10%;
+  .title{
+    margin-left: 20%;
+  }
+  .header, .statement, .projects{
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .specialty{
+    height:500px;
   }
   .bg1{
     margin-left:15%;
+    width: 25%;
   }
 }
